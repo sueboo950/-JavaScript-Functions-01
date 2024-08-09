@@ -9,7 +9,7 @@ function refrain(){
 
 function song(){
     let r;
-    let Sword = "";
+    let Swords = "";
 
     Swords += ("Glory to Your name\n");
     Swords += ("Glory to Your name\n");
@@ -47,7 +47,7 @@ function song(){
 
 song();
 
-let tag = document.getElementById("yourName");
+let tag = document.getElementById("hisName");
 
 function handleClick() {
     let songLyrics;
